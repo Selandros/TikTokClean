@@ -1,0 +1,10 @@
+Package: com.selandros.tiktokclean
+Name: TikTokClean
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Description: Minimal TikTok fullscreen, clean video download and always-on auto-scroll for TikTok 45.7.0.
+Maintainer: selandros
+Author: selandros
+Section: Tweaks
+Depends: firmware (>= 16.0), ellekit (>= 1.1)
+Priority: optional
