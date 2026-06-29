@@ -1,4 +1,4 @@
-# TikTokClean
+# TikTokClean iOS 16
 
 Minimal TikTok cleanup tweak for rootless jailbreaks.
 
