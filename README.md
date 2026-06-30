@@ -2,7 +2,7 @@
 
 Minimal TikTok cleanup tweak for rootless jailbreaks.
 
-Tested on **TikTok 45.7.0**.
+Tested on **TikTok 45.7.0 and 45.8.0**.
 
 ## Features
 
@@ -15,7 +15,7 @@ Tested on **TikTok 45.7.0**.
 
 ## Notes
 
-- Tested only on TikTok 45.7.0.
+- Tested on TikTok 45.7.0 and 45.8.0.
 - Official brand posts may still appear if TikTok does not classify them as ads.
 - Photo posts are not handled as normal videos.
 - Downloaded videos are shared as `.mp4` files through the iOS share sheet.
@@ -29,15 +29,19 @@ find /var/mobile/Containers/Data/Application -name log_tiktokclean.txt -print
 
 Example healthcheck output:
 
-TikTokClean health TikTok=45.7.0 OK
+```text
+TikTokClean health TikTok=45.8.0 OK
+```
 
 If TikTok changes something the tweak depends on, it may show something like:
 
+```text
 TikTokClean health TikTok=46.0.0 MISSING class=AWEFeedCellViewController selector=playerWillLoopPlaying:
+```
 
 ## Installation
 
-Download the .deb from Releases and install it with Sileo, Zebra, Filza, or dpkg.
+Download the `.deb` from Releases and install it with Sileo, Zebra, Filza, or `dpkg`.
 
 Example:
 
@@ -49,8 +53,8 @@ sbreload
 ## Compatibility
 
 - Rootless jailbreaks
-- TikTok 45.7.0
-- Built for iphoneos-arm64
+- TikTok 45.7.0 and 45.8.0
+- Built for `iphoneos-arm64`
 
 Other TikTok versions may work, but are not tested.
 
